@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+  
+}
+/* App.css */
+
+/* Ensure proper scaling on different devices */
+@viewport {
+  width: device-width;
+  zoom: 1;
+}
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.App-main {
+  padding: 20px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  .App-header {
+    font-size: 1.5em;
+  }
+
+  .App-main {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Further adjust styles for even smaller screens */
+  .App-header {
+    font-size: 1.2em;
+  }
+
+  .App-main {
+    font-size: 1em;
+  }
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container {
+  display: flex;
+}
+
+.container > div {
+  flex: 1; /* Each div takes up equal space */
+  padding: 10px; /* Optional: Add padding for spacing */
+  border: 1px solid #ccc; /* Optional: Add border for visual separation */
+
+}
+.gradient-background {
+  /* Set gradient background from dark blue to white */
+  background: linear-gradient(180deg, #142863 0%, #2863DA 100%); 
+  border:5px solid black;
+  position:fixed;
+  top:0;
+  /* You can adjust the gradient direction and colors as needed */
+ 
+}
+.gradient-background .container .Quarter-width table{
+ width:100%;
+
+}
+.grbox{
+  box-sizing: border-box;
+  position: relative;
+  background: linear-gradient(180deg, #1B1141 0%, #2E4E7E 100%);
+  border: 0.722913px solid #000000;
+  box-shadow: 3.61456px 3.61456px 4.33748px 0.722913px rgba(0, 0, 0, 0.25);
+  border-radius: 21.6874px;
+  padding: 10px;
+  }
+  
+.trbox{
+  position: relative;
+  background: rgba(166, 189, 248, 0.5);
+  box-shadow: inset 3.61456px 3.61456px 2.89165px rgba(0, 0, 0, 0.25);
+  border-radius: 21.6874px;
+}
+.vertical-scrolling-container{
+  position: relative;
+  margin-top: 550px;
+  z-index: -1;
+  overflow: hidden;
+}
