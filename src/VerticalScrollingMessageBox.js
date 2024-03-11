@@ -27,7 +27,7 @@ const VerticalScrollingMessageBox = () => {
     fetchMessages();
     const fetchInterval = setInterval(fetchMessages, 50);
 
-    // Cleanup function
+    
     return () => {
       clearInterval(fetchInterval); // Clear interval when component unmounts
     };
