@@ -90,7 +90,7 @@
   /* Set gradient background from dark blue to white */
   background: linear-gradient(180deg, #142863 0%, #2863DA 100%); 
   border:5px solid black;
-  position:fixed;
+
   top:0;
   /* You can adjust the gradient direction and colors as needed */
  
@@ -113,11 +113,11 @@
   position: relative;
   background: rgba(166, 189, 248, 0.5);
   box-shadow: inset 3.61456px 3.61456px 2.89165px rgba(0, 0, 0, 0.25);
-  border-radius: 21.6874px;
+  border-radius: 21.6874px;
 }
-.vertical-scrolling-container{
+/* .vertical-scrolling-container{
   position: relative;
   margin-top: 550px;
   z-index: -1;
   overflow: hidden;
-}
+} */

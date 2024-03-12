@@ -117,7 +117,7 @@ useEffect(() => {
   setAccelerationY(data?.Target?.input?.ay);
   setAccelerationZ(data?.Target?.input?.az);
   setMagneticFieldX(data?.Target?.input?.mx);
-  setMagneticFieldY(data?.Target?.input?.my);
+  setMagneticFieldY(data?.Target?.input?.my); 
   setMagneticFieldZ(data?.Target?.input?.mz);
 }, [data]);
   if (loading) return <p>Loading...</p>;
@@ -137,7 +137,7 @@ useEffect(() => {
 
   return (
     
-    <div><div className="gradient-background">
+    <div>
       <div className="container">
       <div className="Quarter-width">
       <div className="trbox">
@@ -366,7 +366,7 @@ useEffect(() => {
         </table>
         </div></div></div>
     </div>
-    </div></div>
+    </div>
   );
 }
 

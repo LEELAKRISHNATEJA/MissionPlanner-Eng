@@ -4,10 +4,14 @@ import VerticalScrollingMessageBox from './VerticalScrollingMessageBox.js'
 
 function App() {
   return (
-    <div className="App">
-      <MyComponent />
-      <VerticalScrollingMessageBox />
+    
+      <div className="gradient-background">
+
+        
+        <VerticalScrollingMessageBox />
+      
     </div>
+
   );
 }
 
